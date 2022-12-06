@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Dan Huynh">
+	<meta name="keywords" content="Dan Huynh, coding, web development, Edmonds Community College, Programming">	
+	<meta name="description" content="Dan Huynh's Final Competency Project">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="robots" content="noindex, nofollow">
+		
+		
+		<title>Guestbook Page - Dan Huynh</title>
+
+		<!-- Style of page -->
+		<link rel="stylesheet" href="../css/myStyle.css"/>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>	
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">	
+</head>
+<body>
+
+<section class="header">
+		<!-- Top Navigation -->		
+		<nav>
+			<div class="nav-links">
+				<ul>
+					<li><a href="../html/home.html">Home</a><li>
+					<li><a href="../html/resume.html">Resume</a><li>
+					<li><a href="../html/guestbook.html">Guestbook</a><li>
+					<li><a href="../html/interests.html">Interests</a><li>
+					<li><a href="../html/reflections.html">Reflections</a><li>
+				</ul>
+			</div>
+		</nav>
+
+<br><br>
+
+<div class="text-box">
+	<h1>My Guestbook</h1>
+</div>
+
+</section>
+<!-- Web Form -->
+<section class="guestbook">
+
+	<div class="text-header">
+		<h3>Welcome to my Guestbook, please write your information down below.</h3><br/><br/>
+	</div>
+
+	<form
+	method="post"
+	action="http://ss1.ciwcertified.com/cgi-bin/process.pl" class="form1">
+	
+	<div class="form1">
+	<label>Enter Your Name:</label> <input type="text" name="Name" size="40"/>
+	<br/>
+	<br/>
+
+	<label>Enter Your E-mail:</label> <input type="text" name="Email" size="40"/>
+	<br/><br/>
+
+	<label>Your Website:</label> <input type="text" name="url" value="http://" class="form-control" />
+	<br/><br/>
+
+	<label>What country do you live in?</label>
+						<input type="text" name="country" size="40">
+	</div>
+
+	<br/>
+
+	<div class="form1">
+	<label>What is your experience as a Web Developer?</label>
+	<br/>
+	<select name="experience">
+	<option>None</option>
+	<option>Beginner</option>
+	<option>Intermediate</option>
+	<option>Advanced</option>
+	</select>
+	</div>
+
+	<br/>
+
+	<div class="form1">
+	<label>How did you find my website?</label>
+	<br/>
+	<select name="website">
+	<option>Select an option</option>
+	<option>Just surfed in!</option>
+	<option>Word of mouth</option>
+	<option>By search engine</option>
+	<option>A friend sent me</option>
+	</select>
+	</div>
+
+	<br/>
+	<div class="form1">
+	<label>Comments:</label><br/>
+	<textarea name="comments" cols="50" rows="6">
+	Enter your message here.
+	</textarea>
+	</div>
+	<br/>
+
+	
+	<div class="form1">
+	<input type="Submit" value="Submit"/>
+	<input type="reset" value="Reset"/>
+	</div>
+
+</form>
+</section>
+
+<footer class="end-nav">
+	<!-- End Navigation-->
+	<nav>
+		<div class="end-nav-links">
+			<ul>
+				<li><a href="../html/home.html">Home</a><li>
+				<li><a href="../html/resume.html">Resume</a><li>
+				<li><a href="../html/guestbook.html">Guestbook</a><li>
+				<li><a href="../html/interests.html">Interests</a><li>
+				<li><a href="../html/reflections.html">Reflections</a><li>
+			</ul>
+		</div>
+
+	</nav>
+</footer>
+
+
+</html>
